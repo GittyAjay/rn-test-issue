@@ -68,9 +68,6 @@
     },
     "setupFiles": [
       "./jest.setup.js"
-    ],
-    "transformIgnorePatterns": [
-      "node_modules/(?!(jest-)?react-native|@react-native-async-storage/async-storage|react-native-incall-manager|react-native-calendar-strip|react-native-twilio-video-webrtc|@notifee/react-native|react-native-skeleton-placeholder|react-native-gifted-chat|react-native-image-picker|react-native-callkeep|react-native-voip-push-notification|react-native-background-geolocation|react-native-background-timer|react-native-linear-gradient|react-native-location|react-native-dialog|react-native-material-dropdown|react-native-picker-select|react-native-simple-radio-button|react-native-countdown-circle-timer|react-native-timeline-flatlist)"
     ]
   }
 }
