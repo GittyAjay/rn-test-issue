@@ -1,0 +1,76 @@
+{
+  "name": "testApp64",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-firebase/messaging": "^17.3.2",
+    "react": "17.0.1",
+    "react-native": "0.64.1",
+    "react-native-device-info": "^10.4.0",
+    "react-native-fast-image": "^8.6.3",
+    "react-native-gesture-handler": "^2.9.0",
+    "react-native-version-number": "^0.3.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@notifee/react-native": "^7.6.1",
+    "@react-native-async-storage/async-storage": "^1.17.12",
+    "@react-native-community/checkbox": "^0.5.15",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@testing-library/jest-native": "^5.4.2",
+    "@testing-library/react-native": "^12.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "7.14.0",
+    "jest": "^29.5.0",
+    "metro-react-native-babel-preset": "^0.64.0",
+    "react-native-background-geolocation": "^4.10.1",
+    "react-native-background-timer": "^2.4.1",
+    "react-native-calendar-strip": "^2.2.6",
+    "react-native-callkeep": "^4.3.7",
+    "react-native-countdown-circle-timer": "^3.2.1",
+    "react-native-date-picker": "^4.2.9",
+    "react-native-dialog": "^9.3.0",
+    "react-native-elements": "^3.4.3",
+    "react-native-event-listeners": "^1.0.7",
+    "react-native-gifted-chat": "^2.0.0",
+    "react-native-image-picker": "^5.3.1",
+    "react-native-incall-manager": "^4.0.1",
+    "react-native-linear-gradient": "^2.6.2",
+    "react-native-location": "^2.5.0",
+    "react-native-material-dropdown": "^0.11.1",
+    "react-native-modal": "^13.0.1",
+    "react-native-picker-select": "^8.0.4",
+    "react-native-simple-radio-button": "^2.7.4",
+    "react-native-size-matters": "^0.4.0",
+    "react-native-skeleton-placeholder": "^5.2.4",
+    "react-native-stopwatch-timer": "^0.0.21",
+    "react-native-timeline-flatlist": "^0.8.0",
+    "react-native-twilio-video-webrtc": "^3.1.0",
+    "react-native-version-check": "^3.4.7",
+    "react-native-voip-push-notification": "^3.3.1",
+    "react-test-renderer": "17.0.1"
+  },
+  "jest": {
+    "preset": "react-native",
+    "setupFilesAfterEnv": [
+      "@testing-library/jest-native/extend-expect"
+    ],
+    "moduleNameMapper": {
+      "\\.(png|jpg|svg)$": "<rootDir>/__mocks__/images.js"
+    },
+    "setupFiles": [
+      "./jest.setup.js"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|@react-native-async-storage/async-storage|react-native-incall-manager|react-native-calendar-strip|react-native-twilio-video-webrtc|@notifee/react-native|react-native-skeleton-placeholder|react-native-gifted-chat|react-native-image-picker|react-native-callkeep|react-native-voip-push-notification|react-native-background-geolocation|react-native-background-timer|react-native-linear-gradient|react-native-location|react-native-dialog|react-native-material-dropdown|react-native-picker-select|react-native-simple-radio-button|react-native-countdown-circle-timer|react-native-timeline-flatlist)"
+    ]
+  }
+}
